@@ -60,10 +60,10 @@ public class Reloj {
        return 0;
     }
     
-    public int decremento(){
-//        if(anca = gay){
-//        
-//        }
+    public int decremento(int x){
+        if(){
+        
+        }
         return 0;
     }
 
