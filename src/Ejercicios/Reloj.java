@@ -61,7 +61,9 @@ public class Reloj {
     }
     
     public int decremento(){
-        //if()
+//        if(anca = gay){
+//        
+//        }
         return 0;
     }
 
