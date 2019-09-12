@@ -3,8 +3,8 @@ package Ejercicio2;
 public class Cuenta {
     private float saldo;
 
-    public Cuenta(float saldo) {
-        this.saldo = saldo;
+    public Cuenta() {
+        this.saldo = 0;
     }
 
     public float getSaldo() {
@@ -15,18 +15,22 @@ public class Cuenta {
         this.saldo = saldo;
     }
 
-    public float deposito(){
-    
-        return 0;
+    public void deposito(float monto){
+        saldo += monto;
     }
     
-    public float retiro(){
+    public void retiro(float monto){
+        saldo -= monto;
+    }
     
-        return 0;
+    public boolean validarTransaccion(float monto){
+        if(saldo > monto)
+            return true;
+        return false;
     }
     
     @Override
     public String toString() {
-        return "Cuenta{" + "saldo=" + saldo + '}';
+        return "Cuenta " + saldo + '}';
     } 
 }
