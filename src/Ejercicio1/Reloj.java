@@ -43,7 +43,7 @@ public class Reloj {
         horas = minutos = segundos = 0;
     }
     
-    public int incremento(int x){
+    public void incremento(int x){
        segundos += x;
        
        if(segundos >= 60){
@@ -57,7 +57,6 @@ public class Reloj {
        if(horas >= 24){
            horas %= 24;
        }
-       return 0;
     }
     
     public int decremento(int x){
