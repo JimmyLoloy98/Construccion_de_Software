@@ -1,4 +1,4 @@
-package Ejercicios;
+package Ejercicio1;
 
 public class Reloj {
     private int horas;
@@ -61,9 +61,9 @@ public class Reloj {
     }
     
     public int decremento(int x){
-        if(){
+        //if(){
         
-        }
+        //}
         return 0;
     }
 
