@@ -8,8 +8,7 @@ public class Principal {
         
         reloj.puesta_a_cero();
         reloj.incremento(3599);
-        //reloj.decremento();
         System.out.println(reloj.toString());
-        
+        //reloj.decremento();
     }
 }
